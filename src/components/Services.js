@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import icoSvgDesign from '../icons/design-icon.svg';
-import icoSvgDevelopment from '../icons/development-icon.svg';
-import icoSvgUIUX from '../icons/uxui-icon.svg';
-import icoSvgWebAndMobile from '../icons/webapp-icon.svg';
+import icoDesign from '../icons/design-icon.svg';
+import icoDevelopment from '../icons/development-icon.svg';
+import icoUIUX from '../icons/uxui-icon.svg';
+import icoWebAndMobile from '../icons/webapp-icon.svg';
 
 const ServicesContainer = styled.section`
   text-align: center;
@@ -20,7 +20,7 @@ const ServicesContainer = styled.section`
 `;
 
 const ServicesTitle = styled.h2`
-  margin-top: 150px;
+  margin-top: 100px;
   font-size: 1.8em;
   font-weight: bold;
   margin-bottom: 20px;
@@ -65,7 +65,7 @@ function Services() {
       </ServicesTitle>
       <ServiceList>
         <ServiceItem>
-          <ServiceIcon src={icoSvgUIUX} alt="UX & UI" />
+          <ServiceIcon src={icoUIUX} alt="UX & UI" />
           <ServiceTitle>
             UX & UI
           </ServiceTitle>
@@ -74,7 +74,7 @@ function Services() {
           </ServiceDescription>
         </ServiceItem>
         <ServiceItem>
-          <ServiceIcon src={icoSvgWebAndMobile} alt="Web & Mobile App" />
+          <ServiceIcon src={icoWebAndMobile} alt="Web & Mobile App" />
           <ServiceTitle>
             Web & Mobile App
           </ServiceTitle>
@@ -83,7 +83,7 @@ function Services() {
           </ServiceDescription>
         </ServiceItem>
         <ServiceItem>
-          <ServiceIcon src={icoSvgDesign} alt="Design & Creative" />
+          <ServiceIcon src={icoDesign} alt="Design & Creative" />
           <ServiceTitle>
             Design & Creative
           </ServiceTitle>
@@ -92,7 +92,7 @@ function Services() {
           </ServiceDescription>
         </ServiceItem>
         <ServiceItem>
-          <ServiceIcon src={icoSvgDevelopment} alt="Development" />
+          <ServiceIcon src={icoDevelopment} alt="Development" />
           <ServiceTitle>
             Development
           </ServiceTitle>

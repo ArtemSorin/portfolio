@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import styled from 'styled-components';
 
 const HeaderContainer = styled.header`
@@ -49,6 +49,16 @@ const Links = styled.div`
 
   text {
     color: #555;
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: flex-start;
+
+    /* Убираем текст-разделители / на мобильных */
+    text {
+      display: none;
+    }
   }
 `;
 
