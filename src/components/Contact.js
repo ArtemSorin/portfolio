@@ -4,15 +4,13 @@ import styled from 'styled-components';
 import icoSvgHandshake from '../icons/handshake-icon.svg';
 
 const ContactContainer = styled.div`
-  padding: 60px 20px;
-  text-align: center;
-  background-color: #f8f8f8;
-  border-radius: 20px;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  height: 200px;
-  margin-top: -200px;
-  position: relative;
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 100px 100px 20px 20px;
+    height: 200px;
+    margin-top: -200px;
+    position: relative;
 `;
 
 const ProfileImage = styled.img`

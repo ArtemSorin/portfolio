@@ -12,9 +12,7 @@ const ServicesContainer = styled.section`
   background-color: #e9e9e9;
   color: #333;
   border-radius: 20px;
-  margin: 20px 0;
-  height: 400px;
-  margin-top: -100px;
+  margin: -50px 0 20px;
   position: relative;
   z-index: -2;
 `;
@@ -31,6 +29,12 @@ const ServiceList = styled.div`
   justify-content: space-around;
   gap: 20px;
   padding-top: 20px;
+  flex-wrap: wrap;
+
+  @media (max-width: 420px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const ServiceItem = styled.div`
